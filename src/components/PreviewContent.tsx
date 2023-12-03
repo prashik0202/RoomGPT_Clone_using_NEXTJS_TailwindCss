@@ -5,7 +5,7 @@ import couch from "@/assets/couch.svg";
 import { useLoading, useOutput } from '@/store/useStore';
 
 const PreviewContent = () => {
-  const isLoading = useLoading((state: any) => state.isLoading);
+    const isLoading = useLoading((state: any) => state.isLoading);
     const isGenerating = useLoading((state: any) => state.isGenerating);
     const output = useOutput((state: any) => state.output);
     return isLoading ? (

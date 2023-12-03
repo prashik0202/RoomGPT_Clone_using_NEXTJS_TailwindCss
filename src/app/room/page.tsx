@@ -1,3 +1,4 @@
+import Download from '@/components/Download'
 import GenerateBtn from '@/components/GenerateBtn'
 import PreviewContent from '@/components/PreviewContent'
 import SelectInp from '@/components/SelectInp'
@@ -35,8 +36,12 @@ const page = () => {
             </h1>
             <p className='text-slate-400 text-xl'>Upload a room, specify the room type, and select your theme to design</p>
           </div>
+          <div className='mt-5'>
+            <Download />
+          </div>
           {/* Preview Component */}
           <PreviewContent />
+          
         </div>
       </div>
     </div>

@@ -16,6 +16,7 @@
     "react-compare-slider": "^3.0.1",
     "react-dom": "^18",
     "react-select": "^5.8.0",
+    "react-use-downloader": "^1.2.4",
     "replicate": "^0.22.0",
     "zustand": "^4.4.7"
   },
